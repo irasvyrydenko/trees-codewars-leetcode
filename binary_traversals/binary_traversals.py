@@ -3,8 +3,6 @@ class Node(object):
         self.data = data
         self.right = right
         self.left = left
-# Pre-order traversal
-# Pre-order traversal
 def pre_order(node):
     lst = []
     if node is None:
